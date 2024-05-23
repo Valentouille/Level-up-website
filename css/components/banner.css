@@ -1,0 +1,27 @@
+.banner {
+  font-family: Lato;
+  text-align: center;
+}
+
+.banner h1 {
+  color: rgb(125, 0, 125);
+  font-size: 50px;
+  font-family: Helvetica;
+  border: 2px solid black; 
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.banner h2 {
+  color: black;
+  font-size: 50px;
+  font-weight: lighter;
+  opacity: 0.8;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.fa-brands {
+  color: rgb(20, 0, 20)
+}

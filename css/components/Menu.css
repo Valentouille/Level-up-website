@@ -1,0 +1,72 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+
+.description {
+  font-family: 'Lato';
+  text-align: center;
+  font-size: 25px;
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-color: #a358d3; /* Violet moins clair */
+  }
+  50% {
+    border-color: #6a0dad; /* Violet foncé */
+  }
+  100% {
+    border-color: #a358d3; /* Violet moins clair */
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  margin: 60px;
+  border: 6px solid;
+  border-radius: 20px;
+  animation: borderAnimation 3s infinite;
+}
+
+.card img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-family: Orbitron;
+  font-size: 35px;
+  margin: 0;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+
+.card-white {
+  color: rgb(100, 0, 100);
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+  padding: 10px;
+  font-size: 40px;
+}
+
+#lastdiv a {
+  padding: 15px;
+}
+
+.fa-brand{
+   margin: 10px;
+}
